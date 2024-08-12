@@ -12,9 +12,6 @@
         <mxCell id="77e6c97f196da883-2" value="App" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="seb6zSkZ8uJEWK3e91Ww-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-2" source="77e6c97f196da883-8" target="seb6zSkZ8uJEWK3e91Ww-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="77e6c97f196da883-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;发起小车场地建模指令&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="34" width="100" height="65" as="geometry" />
         </mxCell>
