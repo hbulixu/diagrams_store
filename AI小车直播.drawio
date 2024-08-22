@@ -47,10 +47,10 @@
         <mxCell id="jhnfsxxz-ZlzMWsmoNj1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-4" source="seb6zSkZ8uJEWK3e91Ww-23" target="seb6zSkZ8uJEWK3e91Ww-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="seb6zSkZ8uJEWK3e91Ww-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;开启直播间&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="seb6zSkZ8uJEWK3e91Ww-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;记录直播脚本，开启直播间&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="40" y="300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="seb6zSkZ8uJEWK3e91Ww-49" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据直播文案，下发指定的场地内局部照片&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="seb6zSkZ8uJEWK3e91Ww-49" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据直播文案，下发配置的场地内局部照片&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="40" y="430" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="数字人服务" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
