@@ -1,9 +1,169 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="Lx06gaWxZn4Bfp3h4qAc">
-    <mxGraphModel>
+    <mxGraphModel dx="908" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="96N2RFm_TBmIgJaClIKM-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-90" width="640" height="1040" as="geometry">
+            <mxRectangle x="70" y="40" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-2" value="App" style="swimlane;html=1;startSize=20;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-1">
+          <mxGeometry y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;面试开始，上传人物截图&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-2">
+          <mxGeometry x="30" y="60" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;阿姨回答问题，端上实时文字转语音，1秒后播放面试官中间语&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-2">
+          <mxGeometry x="20" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;播放AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-2">
+          <mxGeometry x="20" y="247.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-54" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;播放AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-2">
+          <mxGeometry x="20" y="547.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-56" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;播放面试官视频，被阿姨说话打断，1秒后播放面试中间语&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-2">
+          <mxGeometry x="20" y="640" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-12" value="业务后台" style="swimlane;html=1;startSize=20;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-1">
+          <mxGeometry x="160" y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上传回答内容，请求下一个问题&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-29" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;请求AI面试官开场语&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="60" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-35" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据id查询数字人视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="160" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-41" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;下发AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-47" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据id查询数字人视频或文案&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="450" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-48" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;下发AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-58" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上传打断后话语，请求下一个问题&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="642.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-62" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据id查询数字人视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="760" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-66" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;播放AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="-140" y="860" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-12" source="96N2RFm_TBmIgJaClIKM-67" target="96N2RFm_TBmIgJaClIKM-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-67" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;下发AI面试官视频&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-12">
+          <mxGeometry x="30" y="862.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-16" value="知识库" style="swimlane;html=1;startSize=20;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-1">
+          <mxGeometry x="320" y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-30" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据人物性别年龄下发开场语id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-16">
+          <mxGeometry x="30" y="60" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-45" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;根据回答下发下一个问题id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-16">
+          <mxGeometry x="24" y="357.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;AI处理打断话语与上次问题关系，下发下一个问题id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-16">
+          <mxGeometry x="24" y="640" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-3" target="96N2RFm_TBmIgJaClIKM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-29" target="96N2RFm_TBmIgJaClIKM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-20" value="数字人服务" style="swimlane;html=1;startSize=20;labelBackgroundColor=default;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-1">
+          <mxGeometry x="480" y="20" width="160" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;AI视频库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-20">
+          <mxGeometry x="30" y="162.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;AI视频存在则返回，不存在实时生成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-20">
+          <mxGeometry x="30" y="762.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;AI视频存在则返回，不存在实时生成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="96N2RFm_TBmIgJaClIKM-20">
+          <mxGeometry x="30" y="450" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-30" target="96N2RFm_TBmIgJaClIKM-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="160" />
+              <mxPoint x="240" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-35" target="96N2RFm_TBmIgJaClIKM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-33" target="96N2RFm_TBmIgJaClIKM-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-41" target="96N2RFm_TBmIgJaClIKM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-6" target="96N2RFm_TBmIgJaClIKM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-14" target="96N2RFm_TBmIgJaClIKM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-45" target="96N2RFm_TBmIgJaClIKM-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="450" />
+              <mxPoint x="240" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="502.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-70" target="96N2RFm_TBmIgJaClIKM-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-48" target="96N2RFm_TBmIgJaClIKM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-56" target="96N2RFm_TBmIgJaClIKM-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-58" target="96N2RFm_TBmIgJaClIKM-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-60" target="96N2RFm_TBmIgJaClIKM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-62" target="96N2RFm_TBmIgJaClIKM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96N2RFm_TBmIgJaClIKM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="96N2RFm_TBmIgJaClIKM-1" source="96N2RFm_TBmIgJaClIKM-64" target="96N2RFm_TBmIgJaClIKM-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="913" />
+              <mxPoint x="400" y="913" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
