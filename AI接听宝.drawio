@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="arsP5xa6i8PIs66Z26l-">
-    <mxGraphModel>
+    <mxGraphModel dx="918" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWMv6Hqd9K9krSjXjHaY-1" target="vWMv6Hqd9K9krSjXjHaY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-1" value="" style="shape=mxgraph.rack.apc.apc_smart_ups_1000-3000_va_2u;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="161" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWMv6Hqd9K9krSjXjHaY-2" target="vWMv6Hqd9K9krSjXjHaY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="180" />
+              <mxPoint x="520" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-2" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="130" width="73" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWMv6Hqd9K9krSjXjHaY-4" target="vWMv6Hqd9K9krSjXjHaY-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="220" />
+              <mxPoint x="520" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-4" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="73" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-6" value="公司电话网关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-8" value="路由表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115.5" y="290" width="184.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-9" value="目标电话：010-58xx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vWMv6Hqd9K9krSjXjHaY-8">
+          <mxGeometry x="26" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-10" value="目标ip端口：xxx.55&amp;nbsp; 8888" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vWMv6Hqd9K9krSjXjHaY-8">
+          <mxGeometry x="11" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-11" value="" style="points=[[0.59,0,0],[0.87,0.015,0],[0.88,0.3,0],[0.99,0.99,0],[0.5,1,0],[0.01,0.99,0],[0.075,0.5,0],[0.17,0.115,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.ip_phone;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="60" width="57.49999999999999" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vWMv6Hqd9K9krSjXjHaY-11" target="vWMv6Hqd9K9krSjXjHaY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-13" value="freeswitch&lt;br&gt;呼叫中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="305" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-16" value="语音流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-17" value="语音流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWMv6Hqd9K9krSjXjHaY-18" value="AI服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="598" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
