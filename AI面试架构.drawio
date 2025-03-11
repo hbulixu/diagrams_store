@@ -7,7 +7,7 @@
         <mxCell id="l5cv7P-VvEzEoRlfT6sX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l5cv7P-VvEzEoRlfT6sX-1" target="l5cv7P-VvEzEoRlfT6sX-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l5cv7P-VvEzEoRlfT6sX-21" value="视频流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5cv7P-VvEzEoRlfT6sX-6">
+        <mxCell id="l5cv7P-VvEzEoRlfT6sX-21" value="视频流+事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5cv7P-VvEzEoRlfT6sX-6">
           <mxGeometry x="-0.0889" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,6 +88,9 @@
         </mxCell>
         <mxCell id="l5cv7P-VvEzEoRlfT6sX-27" value="200ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l5cv7P-VvEzEoRlfT6sX-28" value="1-2s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
