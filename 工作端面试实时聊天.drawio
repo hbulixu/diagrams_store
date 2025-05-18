@@ -218,14 +218,14 @@
         <mxCell id="NDynxRcPPiEc00kVFiLR-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="777" y="150" width="30" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NDynxRcPPiEc00kVFiLR-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#CC0000;" edge="1" parent="1">
+        <mxCell id="NDynxRcPPiEc00kVFiLR-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="119.01" y="160" as="sourcePoint" />
             <mxPoint x="777" y="160.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDynxRcPPiEc00kVFiLR-11" value="webrtc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NDynxRcPPiEc00kVFiLR-10">
-          <mxGeometry x="-0.1748" y="2" relative="1" as="geometry">
+        <mxCell id="NDynxRcPPiEc00kVFiLR-12" value="webrtc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NDynxRcPPiEc00kVFiLR-10">
+          <mxGeometry x="0.003" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
