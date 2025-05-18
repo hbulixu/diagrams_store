@@ -19,7 +19,7 @@
         <mxCell id="S2aKsC0YRiiLuyDRzjJa-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="90" y="180" width="30" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="S2aKsC0YRiiLuyDRzjJa-6" value="小智server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="S2aKsC0YRiiLuyDRzjJa-6" value="SERVER" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="210" y="120" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S2aKsC0YRiiLuyDRzjJa-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="S2aKsC0YRiiLuyDRzjJa-9" edge="1">
