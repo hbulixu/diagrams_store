@@ -48,6 +48,16 @@
         <mxCell id="c7BrIo0tIst9Jb-eHItU-19" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/telecommunication/iPhone_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" vertex="1" parent="1">
           <mxGeometry x="200" y="500" width="60" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c7BrIo0tIst9Jb-eHItU-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-36" value="私聊、文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c7BrIo0tIst9Jb-eHItU-35">
+          <mxGeometry x="-0.0866" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="c7BrIo0tIst9Jb-eHItU-20" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/telecommunication/iPhone_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" vertex="1" parent="1">
           <mxGeometry x="230" y="500" width="60" height="50" as="geometry" />
         </mxCell>
@@ -68,6 +78,21 @@
         </mxCell>
         <mxCell id="c7BrIo0tIst9Jb-eHItU-26" value="云控手机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="155" y="640" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-31" value="" style="image;html=1;image=img/lib/clip_art/computers/Software_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="500" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-32" value="" style="image;html=1;image=img/lib/clip_art/computers/Touch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-34" value="DIFY" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="525" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-37" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-38" value="家服线索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="485" y="340" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
