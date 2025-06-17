@@ -13,7 +13,7 @@
         <mxCell id="c7BrIo0tIst9Jb-eHItU-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
           <mxGeometry x="145" y="270" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c7BrIo0tIst9Jb-eHItU-3" value="小红书线索爬取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-3" value="小红书账号爬取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7BrIo0tIst9Jb-eHItU-7" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/telecommunication/iPhone_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" vertex="1" parent="1">
