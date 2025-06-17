@@ -13,7 +13,7 @@
         <mxCell id="c7BrIo0tIst9Jb-eHItU-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
           <mxGeometry x="145" y="270" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c7BrIo0tIst9Jb-eHItU-3" value="爬取服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-3" value="爬虫服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="135" y="340" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c7BrIo0tIst9Jb-eHItU-7" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/telecommunication/iPhone_128x128.png;rounded=1;shadow=0;comic=0;strokeWidth=2;fontSize=22" vertex="1" parent="1">
@@ -94,7 +94,7 @@
             <mxPoint x="430" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c7BrIo0tIst9Jb-eHItU-68" value="获取小红书账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="c7BrIo0tIst9Jb-eHItU-59">
+        <mxCell id="c7BrIo0tIst9Jb-eHItU-68" value="爬取小红书账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="c7BrIo0tIst9Jb-eHItU-59">
           <mxGeometry x="-0.175" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
